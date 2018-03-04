@@ -1,0 +1,14 @@
+一.利用文件流
+fopen + fread + fwrite + fclose + 模版文件
+
+二.利用缓存区
+模版文件
+ob_start(); 
+ob_get_contents()
+file_put_contents
+
+三.利用smarty
+$smarty->assign
+$smarty->fetch
+fopen
+fwrite
